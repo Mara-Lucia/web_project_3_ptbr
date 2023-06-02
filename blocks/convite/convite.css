@@ -1,0 +1,35 @@
+.convite {
+    margin: 0 auto;
+    border: 2px solid red;
+}
+.convite__conteiner{
+    position: relative;
+    margin: 0 auto;
+    width: 85%;
+    min-height: 800px;
+    background-image: url(/imagesd/campo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.convite__content {
+ 
+    top: 50%;
+    left: 50%;
+    transition: translate(-50% -50%);
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
+    z-index: 1;
+}
+.convite__img{
+    position: absolute;
+    width: 100%;
+
+    z-index: 0;
+}
+
+
+/* <img src="./imagesd/campo.png"
+        alt="Foto colorida de campo com vegetação rasteira, parcialmente seca, o que dá um tom dourado misturado ao verde. Mais no alto, grama verde e uma densa vegetação arbórea verde-escura. Entre ela, no lado direito, um conjunto de construções de paredes marrons, de tijolos aparentes, se destaca. Acima dele, no céu uma densa nuvem branca em meio ao azul-claro intenso de um dia ensolarado." />
+*/

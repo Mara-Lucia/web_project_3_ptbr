@@ -1,0 +1,90 @@
+.patria {
+    margin: 0 auto;
+    max-width: 75%;
+}
+
+.patria__cards {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.patria__cards_item {
+    list-style: none;
+    grid-template-areas:
+        "patria__title patria__cards_artista"
+        "patria__card_img paragrafo"
+        "patria__cards_link paragrafo"
+        ". paragrafo";
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: 1fr 1fr;
+/*     grid-template-rows: repeat(3, 1fr); */
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 2em;
+}
+.patria__title{
+    align-self: last baseline;
+    margin: 0;
+    font-size: 72px;
+    font-weight: 900;
+    max-width: 48%;
+    grid-area: patria__title;
+}
+.patria__card_img{
+    width: 100%;
+    grid-area: patria__card_img;
+}
+.patria__cards_artista{
+    padding: 0;
+    list-style: none;
+    grid-area: patria__cards_artista;
+    align-self: last baseline;
+}
+.artista{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+}
+.patria__cards_author{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.paragrafo{
+    margin: 0;
+    grid-area: paragrafo;
+    align-self: first baseline;
+}
+.patria__cards_content{
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 163%; 
+}
+.patria__cards_link{
+    grid-area: patria__cards_link;
+    align-self: first baseline;
+    text-decoration: none;
+    background-color: #0278FE;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+    border-radius: 5px;
+    font-weight: 600;
+    width: fit-content;
+
+
+}
+/* .brasilia{
+    width: 460px;
+    background-image: url(./imagesd/satelite.png);
+    border: 2px solid rgb(35, 214, 41);
+}
+/*             <img src="./imagesd/satelite.png"
+              alt="Imagem noturna de satélite da cidade de Brasília, onde aparecem as luzes das ruas, que formam a imagem de um avião. As asas do avião são as áreas residenciais e comerciais, a parte central do avião onde estaria a cabine do piloto é a parte mais brilhante da imagem, onde está localizada a praça dos três poderes."
+              class="patria__card_img" /> */
+ 

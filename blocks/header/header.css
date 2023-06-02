@@ -1,0 +1,30 @@
+.intro {
+    max-width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+.intro__logo{
+    max-width: 25%;
+    margin: 0 auto;
+}
+.intro__logo-container{
+    max-width: 270px;
+    max-height: 70px;
+    margin: 0 auto;
+    padding-left: 1em;
+}
+.intro__title {
+    max-width: 65%;
+    font-size: 96px;
+    line-height: 100px;
+    margin: 0 auto;
+    padding-top: 2em;
+    text-align: center;
+}
+.intro__subtitle {
+    max-width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2em;
+
+}
