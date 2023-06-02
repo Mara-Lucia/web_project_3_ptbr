@@ -1,32 +1,52 @@
 .convite {
     margin: 0 auto;
-    border: 2px solid red;
-}
-.convite__conteiner{
+    max-width: 90%;
     position: relative;
+}
+.convite__conteiner {
     margin: 0 auto;
-    width: 85%;
-    min-height: 800px;
-    background-image: url(/imagesd/campo.png);
-    background-repeat: no-repeat;
-    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .convite__content {
- 
-    top: 50%;
-    left: 50%;
-    transition: translate(-50% -50%);
-    text-align: center;
+    margin: 0 auto;
     font-size: 18px;
     line-height: 22px;
     font-weight: 400;
-    z-index: 1;
+    text-align: center;
+    margin-bottom: 45px;
+    max-width: 100%;
 }
-.convite__img{
-    position: absolute;
+.convite__title {
+    font-size: 72px;
+    font-weight: 900;
+    margin: 0 auto;
+    max-width: 50%;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.convite__img {
+    background-image: url(/imagesd/__background.png);
+    background-size: contain;
+    background-repeat: no-repeat;
     width: 100%;
-
-    z-index: 0;
+    min-height: 800px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.convite__content_link{
+    margin: 0 auto;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+    border-radius: 5px;
+    font-weight: 600;
+    width: fit-content;
 }
 
 
