@@ -8,7 +8,7 @@
     padding: 0;
 }
 
-.patria__cards_item {
+.patria__item-cards {
     list-style: none;
     grid-template-areas:
         "patria__title patria__cards_artista"
@@ -33,12 +33,12 @@
     grid-area: patria__title;
 }
 
-.patria__card_img {
+.patria__img-cards {
     width: 100%;
     grid-area: patria__card_img;
 }
 
-.patria__cards_artista {
+.patria__artista-cards {
     padding: 0;
     list-style: none;
     grid-area: patria__cards_artista;
@@ -51,7 +51,7 @@
     line-height: 15px;
 }
 
-.patria__cards_author {
+.patria__author-cards {
     font-size: 18px;
     font-weight: 400;
     line-height: 22px;
@@ -63,7 +63,7 @@
     align-self: first baseline;
 }
 
-.patria__cards_content {
+.patria__content-cards {
     margin: 0;
     margin-bottom: 10px;
     font-size: 18px;
@@ -71,7 +71,7 @@
     line-height: 163%;
 }
 
-.patria__cards_link {
+.patria__link-cards {
     grid-area: patria__cards_link;
     align-self: first baseline;
     text-decoration: none;
@@ -85,7 +85,7 @@
     width: fit-content;
 }
 
-.patria__cards_link:hover {
+.patria__link-cards:hover {
     background: #0063D2;
 }
 
@@ -96,7 +96,7 @@
 }
 
 @media(max-width: 450px) {
-    .patria__cards_item {
+    .patria__item-cards {
         grid-template-areas:
             "patria__title"
             "patria__cards_artista"

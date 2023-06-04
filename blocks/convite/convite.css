@@ -41,7 +41,7 @@
     background-repeat: no-repeat;
 }
 
-.convite__content_link {
+.convite__link-content {
     margin: 0 auto;
     text-decoration: none;
     background-color: #0278FE;
@@ -55,7 +55,7 @@
     margin-top: 45px;
 }
 
-.convite__content_link:hover {
+.convite__link-content:hover {
     background: #0063D2;
 }
 
