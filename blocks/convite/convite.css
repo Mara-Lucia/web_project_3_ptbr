@@ -2,12 +2,14 @@
     margin: 0 auto;
     max-width: 90%;
 }
+
 .convite__conteiner {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+
 .convite__content {
     margin: 0 auto;
     font-size: 18px;
@@ -17,6 +19,7 @@
     margin-bottom: 45px;
     max-width: 100%;
 }
+
 .convite__title {
     font-size: 72px;
     font-weight: 900;
@@ -25,6 +28,7 @@
     text-align: center;
     margin-bottom: 32px;
 }
+
 .convite__img {
     margin: 0 auto;
     width: 100%;
@@ -37,7 +41,8 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
-.convite__content_link{
+
+.convite__content_link {
     margin: 0 auto;
     text-decoration: none;
     background-color: #0278FE;
@@ -49,15 +54,15 @@
     font-weight: 600;
     width: fit-content;
 }
+
 .convite__content_link:hover {
     background: #0063D2;
 }
+
 .convite__img:hover {
-    background-image: url("/imagesd/__overlay.png");
-    opacity: 0.3;
     background-image: url("/imagesd/__background.jpg");
     opacity: 0.7;
-    
+
 }
 
 /* <img src="./imagesd/campo.png"
