@@ -1,5 +1,6 @@
 .apresentacao {
     max-width: 80%;
+    min-width: 50%;
     margin: 0 auto;
 }
 
@@ -22,4 +23,30 @@
 .apresentacao__text {
     max-width: 65%;
     font-size: 16px;
+}
+@media(max-width: 800px){
+    .apresentacao {
+        max-width: 100%;
+        min-width: 80%;
+    }
+    .apresentacao__title {
+        padding-left: 0.5em;
+    }
+    
+    .apresentacao__cite {
+        padding-left: 1em;
+    }
+    
+    .apresentacao__author {
+        padding-left: 1em;
+    }
+    
+    .apresentacao__text {
+        padding-left: 1em;
+    }
+}
+@media(max-width: 450px){
+    .apresentacao {
+        max-width: 100%;
+    }
 }

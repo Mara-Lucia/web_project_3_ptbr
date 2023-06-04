@@ -1,8 +1,8 @@
-.patria {
-    margin: 0 auto;
-    max-width: 75%;
-}
 
+.patria {
+    max-width: 75%;
+    margin: 0 auto;
+}
 .patria__cards {
     margin: 0 auto;
     padding: 0;
@@ -79,13 +79,21 @@
 .patria__cards_link:hover {
     background: #0063D2;
 }
-
-/* .brasilia{
-    width: 460px;
-    background-image: url(./imagesd/satelite.png);
-    border: 2px solid rgb(35, 214, 41);
+@media(max-width: 800px){
+    .patria {
+        max-width: 100%;
+    }
+} 
+@media(max-width: 450px){
+    .patria__cards_item {
+        grid-template-areas:
+            "patria__title" 
+            "patria__cards_artista"
+            "patria__card_img"
+            "paragrafo"
+            "paragrafo"
+            "patria__cards_link";
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
-/*             <img src="./imagesd/satelite.png"
-              alt="Imagem noturna de satélite da cidade de Brasília, onde aparecem as luzes das ruas, que formam a imagem de um avião. As asas do avião são as áreas residenciais e comerciais, a parte central do avião onde estaria a cabine do piloto é a parte mais brilhante da imagem, onde está localizada a praça dos três poderes."
-              class="patria__card_img" /> */
- 

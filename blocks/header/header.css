@@ -14,7 +14,7 @@
     padding-left: 1em;
 }
 .intro__title {
-    max-width: 65%;
+    width: 65%;
     font-size: 96px;
     line-height: 100px;
     margin: 0 auto;
@@ -22,9 +22,14 @@
     text-align: center;
 }
 .intro__subtitle {
-    max-width: 40%;
+    width: 40%;
     margin: 0 auto;
     text-align: center;
     padding: 2em;
+}
+@media(max-width:800px){
+    .intro {
+        max-width: 100%;
+    }
 
 }
