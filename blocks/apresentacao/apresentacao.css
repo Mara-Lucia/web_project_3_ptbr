@@ -5,47 +5,53 @@
 }
 
 .apresentacao__title {
-    max-width: 75%;
+    max-width: 85%;
     font-size: 54px;
 }
 
 .apresentacao__cite {
-    max-width: 65%;
+    max-width: 85%;
     font-size: 24px;
 }
 
 .apresentacao__author {
-    max-width: 65%;
+    max-width: 85%;
     font-size: 24px;
     text-align: right;
 }
 
 .apresentacao__text {
-    max-width: 65%;
+    max-width: 85%;
     font-size: 16px;
 }
-@media(max-width: 800px){
+
+@media(max-width: 800px) {
     .apresentacao {
         max-width: 100%;
-        min-width: 80%;
+        min-width: 320px;
     }
+
     .apresentacao__title {
         padding-left: 0.5em;
+        max-width: 95%;
     }
-    
+
     .apresentacao__cite {
         padding-left: 1em;
+        max-width: 95%;
     }
-    
+
     .apresentacao__author {
         padding-left: 1em;
     }
-    
+
     .apresentacao__text {
         padding-left: 1em;
+        max-width: 95%;
     }
 }
-@media(max-width: 450px){
+
+@media(max-width: 450px) {
     .apresentacao {
         max-width: 100%;
     }

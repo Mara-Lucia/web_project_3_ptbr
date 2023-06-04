@@ -3,16 +3,19 @@
     margin: 0 auto;
     position: relative;
 }
-.intro__logo{
+
+.intro__logo {
     max-width: 25%;
     margin: 0 auto;
 }
-.intro__logo-container{
+
+.intro__logo-container {
     max-width: 270px;
     max-height: 70px;
     margin: 0 auto;
     padding-left: 1em;
 }
+
 .intro__title {
     width: 65%;
     font-size: 96px;
@@ -21,13 +24,15 @@
     padding-top: 2em;
     text-align: center;
 }
+
 .intro__subtitle {
     width: 40%;
     margin: 0 auto;
     text-align: center;
     padding: 2em;
 }
-@media(max-width:800px){
+
+@media(max-width:800px) {
     .intro {
         max-width: 100%;
     }

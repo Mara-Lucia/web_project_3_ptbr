@@ -1,8 +1,8 @@
-
 .patria {
     max-width: 75%;
     margin: 0 auto;
 }
+
 .patria__cards {
     margin: 0 auto;
     padding: 0;
@@ -23,7 +23,8 @@
     box-sizing: border-box;
     padding: 2em;
 }
-.patria__title{
+
+.patria__title {
     align-self: last baseline;
     margin: 0;
     font-size: 72px;
@@ -31,39 +32,46 @@
     max-width: 48%;
     grid-area: patria__title;
 }
-.patria__card_img{
+
+.patria__card_img {
     width: 100%;
     grid-area: patria__card_img;
 }
-.patria__cards_artista{
+
+.patria__cards_artista {
     padding: 0;
     list-style: none;
     grid-area: patria__cards_artista;
     align-self: last baseline;
 }
-.artista{
+
+.artista {
     font-size: 12px;
     font-weight: 400;
     line-height: 15px;
 }
-.patria__cards_author{
+
+.patria__cards_author {
     font-size: 18px;
     font-weight: 400;
     line-height: 22px;
 }
-.paragrafo{
+
+.paragrafo {
     margin: 0;
     grid-area: paragrafo;
     align-self: first baseline;
 }
-.patria__cards_content{
+
+.patria__cards_content {
     margin: 0;
     margin-bottom: 10px;
     font-size: 18px;
     font-weight: 400;
-    line-height: 163%; 
+    line-height: 163%;
 }
-.patria__cards_link{
+
+.patria__cards_link {
     grid-area: patria__cards_link;
     align-self: first baseline;
     text-decoration: none;
@@ -76,18 +84,21 @@
     font-weight: 600;
     width: fit-content;
 }
+
 .patria__cards_link:hover {
     background: #0063D2;
 }
-@media(max-width: 800px){
+
+@media(max-width: 800px) {
     .patria {
         max-width: 100%;
     }
-} 
-@media(max-width: 450px){
+}
+
+@media(max-width: 450px) {
     .patria__cards_item {
         grid-template-areas:
-            "patria__title" 
+            "patria__title"
             "patria__cards_artista"
             "patria__card_img"
             "paragrafo"
