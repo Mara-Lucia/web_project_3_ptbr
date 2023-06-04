@@ -16,7 +16,6 @@
     line-height: 22px;
     font-weight: 400;
     text-align: center;
-    margin-bottom: 45px;
     max-width: 100%;
 }
 
@@ -53,6 +52,7 @@
     border-radius: 5px;
     font-weight: 600;
     width: fit-content;
+    margin-top: 45px;
 }
 
 .convite__content_link:hover {
