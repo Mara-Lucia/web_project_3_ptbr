@@ -2,28 +2,30 @@
     max-width: 80%;
     min-width: 50%;
     margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .apresentacao__title {
-    max-width: 85%;
     font-size: 54px;
 }
 
 .apresentacao__cite {
-    max-width: 85%;
-    font-size: 24px;
+   font-size: 24px;
 }
 
 .apresentacao__author {
-    max-width: 85%;
     font-size: 24px;
     text-align: right;
 }
 
 .apresentacao__text {
-    max-width: 85%;
     font-size: 16px;
 }
+
+
 
 @media(max-width: 800px) {
     .apresentacao {

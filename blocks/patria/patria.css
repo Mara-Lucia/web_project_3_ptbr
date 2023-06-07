@@ -1,20 +1,19 @@
 .patria {
     max-width: 75%;
     margin: 0 auto;
-}
-
-.patria__cards {
-    margin: 0 auto;
     padding: 0;
 }
 
-.patria__item-cards {
-    list-style: none;
+.card {
     grid-template-areas:
-        "patria__title patria__cards_artista"
-        "patria__card_img paragrafo"
-        "patria__cards_link paragrafo"
-        ". paragrafo";
+        "t ."
+        "t ."
+        "t ."
+        "t a"
+        "t ac"
+        "i p"
+        "l p"
+        ". p";
     display: grid;
     grid-gap: 1em;
     grid-template-columns: 1fr 1fr;
@@ -30,36 +29,36 @@
     font-size: 72px;
     font-weight: 900;
     max-width: 48%;
-    grid-area: patria__title;
+    grid-area: t;
 }
 
 .patria__img-cards {
     width: 100%;
-    grid-area: patria__card_img;
-}
-
-.patria__artista-cards {
-    padding: 0;
-    list-style: none;
-    grid-area: patria__cards_artista;
-    align-self: last baseline;
+    grid-area: i;
 }
 
 .artista {
+    margin: 0;
+    padding: 0;
     font-size: 12px;
     font-weight: 400;
     line-height: 15px;
+    grid-area: a;
+    color: #AAAAAA;
 }
 
 .patria__author-cards {
+    margin: 0;
+    padding: 0;
     font-size: 18px;
     font-weight: 400;
     line-height: 22px;
+    grid-area: ac;
 }
 
 .paragrafo {
     margin: 0;
-    grid-area: paragrafo;
+    grid-area: p;
     align-self: first baseline;
 }
 
@@ -72,7 +71,7 @@
 }
 
 .patria__link-cards {
-    grid-area: patria__cards_link;
+    grid-area: l;
     align-self: first baseline;
     text-decoration: none;
     background-color: #0278FE;
@@ -93,18 +92,26 @@
     .patria {
         max-width: 100%;
     }
+    .patria__title {
+        font-size: 42px;
+    }
 }
 
 @media(max-width: 450px) {
-    .patria__item-cards {
+    .card {
         grid-template-areas:
-            "patria__title"
-            "patria__cards_artista"
-            "patria__card_img"
-            "paragrafo"
-            "paragrafo"
-            "patria__cards_link";
+           
+            "t"
+            "a"
+            "ac"
+            "i"
+            "p"
+            "p"
+            "l";
         display: grid;
         grid-template-columns: 1fr;
+    }
+    .patria__title {
+        font-size: 32px;
     }
 }
