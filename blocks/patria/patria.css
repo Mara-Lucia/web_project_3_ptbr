@@ -76,7 +76,7 @@
     line-height: 163%;
 }
 
-.patria__link-cards {
+.card__link {
     margin: 0;
     padding: 10px;
     grid-area: l;
@@ -91,7 +91,7 @@
     width: fit-content;
 }
 
-.patria__link-cards:hover {
+.card__link:hover {
     background: #0063D2;
 }
 
