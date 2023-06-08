@@ -18,7 +18,7 @@ header {
     margin: 0 auto;
     padding: 0;
     width: 65%;
-    text-align: center  ;
+    text-align: center;
     font-size: 96px;
     line-height: 100px;
     padding-top: 2em;
@@ -47,10 +47,11 @@ header {
         width: 95%;
         margin: 0 auto;
     }
+
     .foto {
         width: 100%;
         margin: 0 auto;
-    
+
     }
 
 }
@@ -60,9 +61,10 @@ header {
         max-width: 100%;
         min-width: 320px;
     }
+
     .foto {
         width: 100%;
         margin: 0 auto;
-    
+
     }
 }
