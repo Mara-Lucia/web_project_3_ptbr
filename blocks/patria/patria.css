@@ -22,7 +22,6 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    padding: 2em;
 }
 
 .patria__title {
@@ -79,12 +78,11 @@
 
 .patria__link-cards {
     margin: 0;
-    padding: 0;
+    padding: 10px;
     grid-area: l;
     align-self: first baseline;
     text-decoration: none;
     background-color: #0278FE;
-    padding: 10px;
     text-align: center;
     font-size: 18px;
     line-height: 22px;
