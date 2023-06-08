@@ -45,14 +45,6 @@
 
 .convite__link-content {
     margin: 0 auto;
-    text-decoration: none;
-    background-color: #0278FE;
-    padding: 10px;
-    text-align: center;
-    font-size: 18px;
-    line-height: 22px;
-    border-radius: 5px;
-    font-weight: 600;
     width: fit-content;
     margin-top: 45px;
 }

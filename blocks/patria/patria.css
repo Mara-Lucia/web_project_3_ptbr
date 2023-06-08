@@ -1,10 +1,12 @@
 .patria {
-    max-width: 75%;
+    max-width: 90%;
     margin: 0 auto;
     padding: 0;
 }
 
 .card {
+    margin: 0;
+    padding: 0;
     grid-template-areas:
         "t ."
         "t ."
@@ -24,15 +26,18 @@
 }
 
 .patria__title {
-    align-self: last baseline;
     margin: 0;
+    padding: 0;
+    align-self: last baseline;
     font-size: 72px;
     font-weight: 900;
-    max-width: 48%;
+    max-width: 50%;
     grid-area: t;
 }
 
 .patria__img-cards {
+    margin: 0;
+    padding: 0;
     width: 100%;
     grid-area: i;
 }
@@ -58,12 +63,14 @@
 
 .paragrafo {
     margin: 0;
+    padding: 0;
     grid-area: p;
     align-self: first baseline;
 }
 
 .patria__content-cards {
     margin: 0;
+    padding: 0;
     margin-bottom: 10px;
     font-size: 18px;
     font-weight: 400;
@@ -71,6 +78,8 @@
 }
 
 .patria__link-cards {
+    margin: 0;
+    padding: 0;
     grid-area: l;
     align-self: first baseline;
     text-decoration: none;
@@ -92,6 +101,7 @@
     .patria {
         max-width: 100%;
     }
+
     .patria__title {
         font-size: 42px;
     }
@@ -100,7 +110,7 @@
 @media(max-width: 450px) {
     .card {
         grid-template-areas:
-           
+
             "t"
             "a"
             "ac"
@@ -111,6 +121,7 @@
         display: grid;
         grid-template-columns: 1fr;
     }
+
     .patria__title {
         font-size: 32px;
     }
