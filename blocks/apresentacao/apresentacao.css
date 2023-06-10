@@ -1,27 +1,39 @@
 .apresentacao {
-    max-width: 80%;
-    min-width: 50%;
+    max-width: 984px;
     margin: 0 auto;
     padding: 0;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    padding-top: 92px;
+    padding-bottom: 92px;
 }
 
 .apresentacao__title {
+    margin: 0;
+    padding: 0;
     font-size: 54px;
+    padding-bottom: 75px;
 }
 
 .apresentacao__cite {
+    margin: 0;
+    padding: 0;
    font-size: 24px;
 }
 
 .apresentacao__author {
+    margin: 0;
+    padding: 0;
     font-size: 24px;
     text-align: right;
+    padding-top: 9px;
+    padding-bottom: 32px;
 }
 
 .apresentacao__text {
+    margin: 0;
+    padding: 0;
     font-size: 16px;
 }
 
@@ -29,13 +41,12 @@
 
 @media(max-width: 800px) {
     .apresentacao {
-        max-width: 100%;
-        min-width: 320px;
+        max-width: 95%;
     }
 
     .apresentacao__title {
         padding-left: 0.5em;
-        max-width: 95%;
+        max-width: 80%;
     }
 
     .apresentacao__cite {
@@ -55,6 +66,6 @@
 
 @media(max-width: 450px) {
     .apresentacao {
-        max-width: 100%;
+        max-width: 98%;
     }
 }

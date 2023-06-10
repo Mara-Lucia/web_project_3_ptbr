@@ -1,6 +1,10 @@
 .patria {
-    max-width: 90%;
+    max-width: 984px;
     margin: 0 auto;
+    padding: 0;
+}
+.patria-list {
+    margin: 0;
     padding: 0;
 }
 
@@ -17,7 +21,7 @@
         "l p"
         ". p";
     display: grid;
-    grid-gap: 1em;
+    grid-gap: 2em;
     grid-template-columns: 1fr 1fr;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -30,7 +34,7 @@
     align-self: last baseline;
     font-size: 72px;
     font-weight: 900;
-    max-width: 50%;
+    max-width: 460px;
     grid-area: t;
 }
 
@@ -97,12 +101,17 @@
 
 @media(max-width: 800px) {
     .patria {
-        max-width: 100%;
+        max-width: 95%;
     }
 
     .patria__title {
         font-size: 42px;
+        max-width: 100%;
     }
+    .paragrafo {
+        max-width: 90%;
+    }
+    
 }
 
 @media(max-width: 450px) {
@@ -118,9 +127,5 @@
             "l";
         display: grid;
         grid-template-columns: 1fr;
-    }
-
-    .patria__title {
-        font-size: 32px;
     }
 }

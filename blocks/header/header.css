@@ -17,24 +17,23 @@
 .header__title {
     margin: 0 auto;
     padding: 0;
-    width: 65%;
+    max-width: 793px;
     text-align: center;
     font-size: 96px;
     line-height: 100px;
-    padding-top: 2em;
+    padding-top: 92px;
 }
 
 .header__subtitle {
-    width: 40%;
+    width: 56%;
     margin: 0 auto;
     text-align: center;
     padding: 2em;
 }
 
 .foto {
-    width: 90%;
+    width: 984px;
     margin: 0 auto;
-
 }
 
 .foto__item {
@@ -44,7 +43,7 @@
 
 @media(max-width: 800px) {
     .header {
-        width: 95%;
+        max-width: 100%;
         margin: 0 auto;
     }
 
@@ -52,6 +51,7 @@
         width: 100%;
         margin: 0 auto;
     }
+
     .header__title {
         width: 720px;
     }
@@ -60,7 +60,6 @@
 @media(max-width: 450px) {
     .header {
         max-width: 100%;
-        min-width: 320px;
     }
 
     .foto {
@@ -70,8 +69,10 @@
 
     .header__title {
         font-size: 40px;
+        line-height: 44px;
         width: 288px;
         padding: 0;
+        padding-top: 51px;
         margin: 0 auto;
     }
 }
