@@ -2,13 +2,13 @@ body {
   background-color: #2A2C2F;
 }
 .page {
-  width: 1280px;
+ max-width: 1280px;
   /* we don't know how to make mobile versions of websites yet, */
   /* so here we've set a minimum page width */
-  width: 1600px;
   /* here we've set a maximum page width */
   margin: 0 auto;
   /* this ensures that all content is centered on screens wider than 1600px */
   font-family: 'Inter', sans-serif;
   color: #FFFFFF;
+  text-rendering: optimizeLegibility;
 }

@@ -1,7 +1,7 @@
 .galeria {
     margin: 0 auto;
     padding: 0;
-    max-width: 90%;
+    max-width: 1184px;
 }
 
 .item {
@@ -14,18 +14,43 @@
 
 .item__img {
     margin: 0;
-    padding: 4px;
+    max-width: 284px;
     width: 100%;
-}
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 16px;
 
+}
+/* -------------------------------------------------800px--------------------------------------------- */
 @media(max-width: 800px) {
     .item {
+        margin: 0 auto;
         column-count: 2;
+        max-width: 720px;
+        
     }
+    .item__img {
+        margin: 0;
+        max-width: 352px;
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
 }
+
+/* -------------------------------------------------450px--------------------------------------------- */
 
 @media(max-width: 450px) {
     .item {
+        max-width: 320px;
         column-count: 1;
+    }    
+    .item__img {
+        margin: 0 auto;
+        padding: 0;
+        padding-bottom: 12px;
+        max-width: 288px;
+        width: 100%;
     }
+
 }
