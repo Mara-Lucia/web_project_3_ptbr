@@ -48,9 +48,10 @@
 /* --------------------------------------------------------800px------------------------------------------- */
 
 @media(max-width: 800px) {
-    .apresentacao{
+    .apresentacao {
         padding-left: 24px;
     }
+
     .apresentacao__title {
         font-size: 54px;
         font-weight: 900;
@@ -69,7 +70,7 @@
         font-size: 24px;
         font-weight: 400;
         line-height: 34px;
-        max-width: 720px;    
+        max-width: 720px;
         margin-top: 9px;
         margin-bottom: 32px;
     }
@@ -81,10 +82,11 @@
         max-width: 720px;
     }
 }
+
 /* --------------------------------------------------------450px------------------------------------------- */
 
 @media(max-width: 450px) {
-    
+
     .apresentacao__title {
         font-size: 32px;
         font-weight: 900;

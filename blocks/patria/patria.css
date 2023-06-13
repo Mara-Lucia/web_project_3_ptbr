@@ -95,8 +95,6 @@
     text-decoration: none;
     background-color: #0278FE;
     text-align: center;
-    font-size: 18px;
-    line-height: 22px;
     border-radius: 5px;
     font-weight: 600;
     width: fit-content;
@@ -130,7 +128,7 @@
         margin: 0 auto;
         padding: 0;
     }
-    
+
     .patria__content {
         max-width: 352px;
         font-weight: 400;
@@ -181,6 +179,7 @@
         max-width: 288px;
         line-height: 163%;
     }
+
     .card__link {
         margin: 0 auto;
         font-size: 14px;
